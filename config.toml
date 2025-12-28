@@ -1,0 +1,191 @@
+baseURL = "https://portfoliohubs.github.io/cursor"
+languageCode = "ar"
+defaultContentLanguage = "ar"
+title = "عيادة الأسنان المتميزة"
+theme = ""
+
+[params]
+  # Site Information
+  clinic_name = "عيادة الأسنان المتميزة"
+  clinic_name_en = "Premium Dental Clinic"
+  tagline = "ابتسامتك هي أولويتنا"
+  tagline_en = "Your Smile is Our Priority"
+  description = "عيادة أسنان متخصصة تقدم أفضل الخدمات الطبية في مجال طب الأسنان مع أحدث التقنيات والكوادر المؤهلة"
+  description_en = "Specialized dental clinic offering the best medical services in dentistry with the latest technologies and qualified staff"
+  
+  # Contact Information
+  phone = "+966 50 123 4567"
+  phone_secondary = "+966 11 234 5678"
+  email = "info@dentalclinic.com"
+  address = "الرياض، المملكة العربية السعودية"
+  address_en = "Riyadh, Saudi Arabia"
+  working_hours = "الأحد - الخميس: 9:00 ص - 9:00 م | الجمعة - السبت: 2:00 م - 9:00 م"
+  working_hours_en = "Sunday - Thursday: 9:00 AM - 9:00 PM | Friday - Saturday: 2:00 PM - 9:00 PM"
+  
+  # Social Media
+  facebook = "https://facebook.com/dentalclinic"
+  instagram = "https://instagram.com/dentalclinic"
+  twitter = "https://twitter.com/dentalclinic"
+  whatsapp = "+966501234567"
+  
+  # Hero Section
+  hero_title = "صحة أسنانك تبدأ من هنا"
+  hero_title_en = "Your Dental Health Starts Here"
+  hero_subtitle = "نقدم لك أفضل رعاية أسنان متكاملة بأحدث التقنيات وأفضل الأطباء المتخصصين"
+  hero_subtitle_en = "We provide you with the best comprehensive dental care with the latest technologies and the best specialized doctors"
+  hero_button = "احجز موعدك الآن"
+  hero_button_en = "Book Your Appointment Now"
+  
+  # About Section
+  about_title = "من نحن"
+  about_title_en = "About Us"
+  about_text = "نحن عيادة أسنان رائدة في المنطقة، نقدم خدمات شاملة في طب الأسنان منذ أكثر من 15 عاماً. نحن ملتزمون بتقديم أعلى معايير الرعاية الصحية باستخدام أحدث التقنيات والكوادر المؤهلة."
+  about_text_en = "We are a leading dental clinic in the region, providing comprehensive dental services for over 15 years. We are committed to providing the highest standards of healthcare using the latest technologies and qualified staff."
+  
+  # Services
+  services_title = "خدماتنا"
+  services_title_en = "Our Services"
+  
+  [[params.services]]
+    name = "زراعة الأسنان"
+    name_en = "Dental Implants"
+    icon = "🦷"
+    description = "أفضل حل لاستبدال الأسنان المفقودة باستخدام أحدث تقنيات الزراعة"
+    description_en = "Best solution for replacing missing teeth using the latest implant technologies"
+  
+  [[params.services]]
+    name = "تقويم الأسنان"
+    name_en = "Orthodontics"
+    icon = "😁"
+    description = "تقويم الأسنان الشفاف والتقليدي لابتسامة مثالية"
+    description_en = "Clear and traditional braces for a perfect smile"
+  
+  [[params.services]]
+    name = "تبييض الأسنان"
+    name_en = "Teeth Whitening"
+    icon = "✨"
+    description = "تبييض احترافي وآمن للحصول على ابتسامة ناصعة البياض"
+    description_en = "Professional and safe whitening for a bright white smile"
+  
+  [[params.services]]
+    name = "علاج الجذور"
+    name_en = "Root Canal"
+    icon = "🔧"
+    description = "علاج الجذور المتقدم بدون ألم لإنقاذ أسنانك"
+    description_en = "Advanced painless root canal treatment to save your teeth"
+  
+  [[params.services]]
+    name = "تركيبات الأسنان"
+    name_en = "Dental Prosthetics"
+    icon = "👑"
+    description = "تركيبات ثابتة ومتحركة عالية الجودة"
+    description_en = "High-quality fixed and removable prosthetics"
+  
+  [[params.services]]
+    name = "تنظيف الأسنان"
+    name_en = "Teeth Cleaning"
+    icon = "🧹"
+    description = "تنظيف احترافي دوري للحفاظ على صحة الفم والأسنان"
+    description_en = "Regular professional cleaning to maintain oral and dental health"
+  
+  # Team Section
+  team_title = "فريقنا الطبي"
+  team_title_en = "Our Medical Team"
+  
+  [[params.team]]
+    name = "د. أحمد محمد"
+    name_en = "Dr. Ahmed Mohammed"
+    position = "استشاري جراحة الفم والأسنان"
+    position_en = "Consultant Oral and Maxillofacial Surgeon"
+    image = "https://via.placeholder.com/300x300?text=Dr.+Ahmed"
+  
+  [[params.team]]
+    name = "د. فاطمة علي"
+    name_en = "Dr. Fatima Ali"
+    position = "أخصائية تقويم الأسنان"
+    position_en = "Orthodontics Specialist"
+    image = "https://via.placeholder.com/300x300?text=Dr.+Fatima"
+  
+  [[params.team]]
+    name = "د. خالد حسن"
+    name_en = "Dr. Khalid Hassan"
+    position = "أخصائي زراعة الأسنان"
+    position_en = "Dental Implant Specialist"
+    image = "https://via.placeholder.com/300x300?text=Dr.+Khalid"
+  
+  # Features/Why Choose Us
+  features_title = "لماذا تختارنا"
+  features_title_en = "Why Choose Us"
+  
+  [[params.features]]
+    title = "أحدث التقنيات"
+    title_en = "Latest Technologies"
+    description = "نستخدم أحدث المعدات والتقنيات في عالم طب الأسنان"
+    description_en = "We use the latest equipment and technologies in the world of dentistry"
+    icon = "🔬"
+  
+  [[params.features]]
+    title = "أطباء مؤهلون"
+    title_en = "Qualified Doctors"
+    description = "فريق من الأطباء المعتمدين والحاصلين على أعلى الشهادات"
+    description_en = "A team of certified doctors with the highest qualifications"
+    icon = "👨‍⚕️"
+  
+  [[params.features]]
+    title = "أسعار تنافسية"
+    title_en = "Competitive Prices"
+    description = "أفضل الأسعار مع خطط دفع مرنة"
+    description_en = "Best prices with flexible payment plans"
+    icon = "💰"
+  
+  [[params.features]]
+    title = "رعاية شاملة"
+    title_en = "Comprehensive Care"
+    description = "نقدم رعاية متكاملة لجميع احتياجاتك الصحية"
+    description_en = "We provide comprehensive care for all your health needs"
+    icon = "❤️"
+  
+  # Testimonials
+  testimonials_title = "آراء عملائنا"
+  testimonials_title_en = "Client Testimonials"
+  
+  [[params.testimonials]]
+    name = "سارة أحمد"
+    name_en = "Sara Ahmed"
+    text = "تجربة رائعة! الفريق محترف جداً والخدمة ممتازة. أنصح الجميع بهذه العيادة."
+    text_en = "Amazing experience! The team is very professional and the service is excellent. I recommend this clinic to everyone."
+    rating = 5
+  
+  [[params.testimonials]]
+    name = "محمد خالد"
+    name_en = "Mohammed Khalid"
+    text = "أفضل عيادة أسنان زرتها. التقنيات حديثة والنتائج ممتازة."
+    text_en = "The best dental clinic I've visited. Modern technologies and excellent results."
+    rating = 5
+  
+  [[params.testimonials]]
+    name = "نورا سعيد"
+    name_en = "Nora Saeed"
+    text = "خدمة ممتازة ورعاية فائقة. شكراً لكم على الاهتمام والاحترافية."
+    text_en = "Excellent service and outstanding care. Thank you for your attention and professionalism."
+    rating = 5
+  
+  # Colors (MENA-friendly palette)
+  primary_color = "#2C5F7C"
+  secondary_color = "#4A90A4"
+  accent_color = "#E8B923"
+  text_color = "#333333"
+  background_color = "#FFFFFF"
+  
+  # SEO
+  meta_keywords = "عيادة أسنان، طب الأسنان، زراعة الأسنان، تقويم الأسنان، تبييض الأسنان، الرياض"
+  meta_keywords_en = "dental clinic, dentistry, dental implants, orthodontics, teeth whitening, Riyadh"
+
+[languages]
+  [languages.ar]
+    languageName = "العربية"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    weight = 2
+
