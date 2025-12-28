@@ -2,7 +2,6 @@ baseURL = "https://portfoliohubs.github.io/cursor"
 languageCode = "ar"
 defaultContentLanguage = "ar"
 title = "عيادة الأسنان المتميزة"
-theme = ""
 
 [params]
   # Site Information
